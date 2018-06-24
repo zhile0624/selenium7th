@@ -29,7 +29,7 @@ def send_email(path):
     #sendmail
     smtp.send_message(msg, from_addr='bwftest126@126.com', to_addrs='285059520@qq.com')
     smtp.quit()
-
+    print("邮件已发送")
 if __name__ == '__main__':
     #2想批量执行，首先要明确你要执行那些测试用例
     #只能执行继承了unitest.TestCase的类
@@ -44,4 +44,4 @@ if __name__ == '__main__':
     file = open(path,'wb')
     HTMLTestRunner(stream=file, verbosity=1, title="海盗商城测试报告", description="这是描述信息；测试环境sever2008；浏览器'Chrome'").run(suite)
     #发送测试报告
-    #send_email(path)
+    send_email(path)
