@@ -1,0 +1,7 @@
+{
+  "registerTest.py::RegisterTest::test_register": true,
+  "registerTest2.py::RegisterTest2": true,
+  "registerTest2.py::RegisterTest2::test_register_1___\u5c0f\u660e____123456____123456____13612342356____chan23g_swd_com__": true,
+  "registerTest2.py::RegisterTest2::test_register_2___\u5c0f\u7ea2____123456____123456____13612122356____cha2334ng_swd_com__": true,
+  "registerTest2.py::RegisterTest2::test_register_3___\u5c0f\u521a____123456____123456____13612333356____chasd23ng_swd_com__": true
+}
